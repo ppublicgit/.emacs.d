@@ -4,9 +4,9 @@
 
 ;; Enable elpy
 (pyvenv-activate "~/.virtualenvs/main/")
-;;(setq elpy-rpc-python-command "python")
+;;(setq elpy-rpc-python-command "/usr/bin/python")
 (setq elpy-rpc-virtualenv-path 'current)
-;;(elpy-enable)
+(elpy-enable)
 
 
 ;; Use IPython for REPL

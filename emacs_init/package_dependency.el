@@ -11,7 +11,7 @@
 ;; Installs packages
 ;; myPackages contains a list of package names
 (defvar myPackages
-  '(;; globals
+  '(;; GLOBALS SETUP
     dracula-theme                   ;; Theme
     ace-jump-mode ;;acejump
     async ;;as
@@ -24,34 +24,52 @@
     yasnippet;;
     rainbow-delimiters;;
     expand-region;;
-    ;;company-mode;;
+    company;;
     magit;;
-    ;; haskell
+    git-gutter+;;
+    sr-speedbar;;
+
+    ;; HASKELL SETUP
     haskell-mode ;;hm
     flycheck-ghcmod ;;fg
-    ;; python
+
+    ;; PYTHON SETUP
     elpy ;;el
     flycheck ;;fc
     blacken ;;bl pip install black in correct virtual environment
     ein ;;ei
-    ;; latex
+
+    ;; LATEX SETUP
     auctex ;; au
     reftex ;;rf
     pdf-tools ;;pdf
-    ;; web development
+
+    ;; WEB (HTML, CSS, JS) SETUP
     web-mode;;
     company-web;;
     emmet-mode;;
     markdown-preview-eww;;
-    ;; R programming
+
+    ;; R SETUP
     ess;
     ess-R-data-view;;
     ;;company-ess;;
-    ;; CPP
+
+    ;; CPP SETUP
+    ;;company-c-headers;;
+    ;;helm-gtags;;
     rtags;;
-    ;;rtags-helm;;
+    helm-rtags;;
     irony;;
     company-rtags;;
+    company-irony;;
+    company-irony-c-headers;;
+    flycheck-rtags;;
+    flycheck-irony;;
+    cmake-ide;;
+    dtrt-indent;;
+    clean-aindent-mode;;
+    ws-butler;;
     )
   )
 ;; Scans the list in myPackages
@@ -60,6 +78,8 @@
           (unless (package-installed-p package)
             (package-install package)))
       myPackages)
+
+;; handle installed packages and spin them up
 
 ;; set dracula theme
 (load-theme 'dracula t)
@@ -81,3 +101,21 @@
   (use-package yasnippet-snippets
     :ensure t)
   (yas-reload-all))
+
+
+(setq
+ helm-gtags-ignore-case t
+ helm-gtags-auto-update t
+ helm-gtags-use-input-at-cursor t
+ helm-gtags-pulse-at-cursor t
+ helm-gtags-prefix-key "\C-cg"
+ helm-gtags-suggested-key-mapping t
+ )
+
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
+
+(require 'sr-speedbar)
+(setq speedbar-show-unknown-files t)
+(setq speedbar-use-images nil) ; use text for buttons
+(setq sr-speedbar-right-side nil) ; put on left side

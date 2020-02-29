@@ -4,10 +4,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(elpy-rpc-pythonpath "/home/p/.virtualenvs/main/lib/python3.8/site-packages")
+ '(elpy-rpc-pythonpath "")
  '(package-selected-packages
    (quote
-    (web-mode irony helm-rtags company-rtags rtags ace-jump-mode use-package haskell-mode dracula-theme))))
+    (sr-speedbar web-mode irony helm-rtags company-rtags rtags ace-jump-mode use-package haskell-mode dracula-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

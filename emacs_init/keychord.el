@@ -28,6 +28,7 @@
 (key-chord-define-global "vk" 'kill-rectangle)
 (key-chord-define-global "a;" 'replace-rectangle)
 (key-chord-define-global "vv" 'open-rectangle)
+(key-chord-define-global "cv" 'string-insert-rectangle)
 
 ;; register copy and insert
 (key-chord-define-global "jq" 'copy-to-register)
@@ -49,8 +50,8 @@
 ;; Misc commands
 ;;(key-chord-define-global "fk" 'bub-revert-all-buffers)
 ;;(key-chord-define-global "yy" 'align-regexp)
-;;(key-chord-define-global "qk" 'er/expand-region)
+(key-chord-define-global "qk" 'er/expand-region)
 ;;(key-chord-define-global "jg" 'join-region)
-;;(key-chord-define-global "js" 'replace-string)
-;;(key-chord-define-global "zz" 'magit-status)
+(key-chord-define-global "js" 'replace-string)
+(key-chord-define-global "zz" 'magit-status)
 ;;(key-chord-define-global "qf" 'cua-mode)

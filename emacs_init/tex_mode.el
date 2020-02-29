@@ -1,3 +1,5 @@
+(add-hook 'TeX-mode-hook yas-minor-mode)
+
 ;;; AUCTeX
 ;; Customary Customization, p. 1 and 16 in the manual, and http://www.emacswiki.org/emacs/AUCTeX#toc2
 (setq TeX-parse-self t); Enable parse on load.
