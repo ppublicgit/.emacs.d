@@ -38,5 +38,6 @@
 ;;(global-hl-line-mode 1); Highlight current row
 (show-paren-mode 1); Matches parentheses and such in every mode
 (setq calendar-week-start-day 1); Calender should start on Monday
-(add-to-list 'default-frame-alist '(height . 59)); Default frame height.
+;;(add-to-list 'default-frame-alist '(height . 59)); Default frame height.
 (delete-selection-mode 1)
+(setq completion-auto-help nil)

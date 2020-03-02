@@ -70,6 +70,11 @@
     dtrt-indent;;
     clean-aindent-mode;;
     ws-butler;;
+
+    ;; ido mode
+    flx-ido;;
+    ido-vertical-mode;;
+    ido-completing-read+;;
     )
   )
 ;; Scans the list in myPackages
