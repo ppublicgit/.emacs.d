@@ -28,6 +28,8 @@
     magit;;
     git-gutter+;;
     sr-speedbar;;
+    multiple-cursors;;
+    workgroups2;;
 
     ;; HASKELL SETUP
     haskell-mode ;;hm
@@ -56,10 +58,7 @@
     ;;company-ess;;
 
     ;; CPP SETUP
-    ;;company-c-headers;;
-    ;;helm-gtags;;
     rtags;;
-    helm-rtags;;
     irony;;
     company-rtags;;
     company-irony;;
@@ -98,7 +97,6 @@
 ;;  :ensure t)
 (require 'rainbow-delimiters)
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
-(require 'ido)
 
 (use-package yasnippet
   :ensure t
@@ -106,16 +104,6 @@
   (use-package yasnippet-snippets
     :ensure t)
   (yas-reload-all))
-
-
-(setq
- helm-gtags-ignore-case t
- helm-gtags-auto-update t
- helm-gtags-use-input-at-cursor t
- helm-gtags-pulse-at-cursor t
- helm-gtags-prefix-key "\C-cg"
- helm-gtags-suggested-key-mapping t
- )
 
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
