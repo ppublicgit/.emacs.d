@@ -18,3 +18,4 @@
 (load (get-fullpath "python_mode"))
 (load (get-fullpath "tex_mode"))
 (load (get-fullpath "ido_mode"))
+(load (get-fullpath "workgroups_support"))

@@ -58,12 +58,12 @@
     ;;company-ess;;
 
     ;; CPP SETUP
-    rtags;;
+    ;;rtags;;
     irony;;
-    company-rtags;;
+    ;;company-rtags;;
     company-irony;;
     company-irony-c-headers;;
-    flycheck-rtags;;
+    ;;flycheck-rtags;;
     flycheck-irony;;
     cmake-ide;;
     dtrt-indent;;
