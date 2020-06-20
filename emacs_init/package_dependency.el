@@ -12,7 +12,7 @@
 ;; myPackages contains a list of package names
 (defvar myPackages
   '(;; GLOBALS SETUP
-    dracula-theme                   ;; Theme
+    doom-themes;
     ace-jump-mode ;;acejump
     async ;;as
     bind-key ;;bk
@@ -85,8 +85,9 @@
 
 ;; handle installed packages and spin them up
 
+(load-theme 'doom-challenger-deep t)
 ;; set dracula theme
-(load-theme 'dracula t)
+;;(load-theme 'dracula t)
 
 
 ;;(dolist (package '(use-package))

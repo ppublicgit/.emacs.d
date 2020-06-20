@@ -2,23 +2,24 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/p/.config/" . "i3/")
+ ("/home/p/.config/" . "picom/")
  ("/home/p/Documents/UAH/2020Spring/CS221/" . "ProjectAssignment3/")
  ("/home/p/Documents/UAH/2020Spring/" . "CS221/")
  ("/home/p/Documents/UAH/" . "2020Spring/")
  ("/home/p/Documents/" . "UAH/")
  ("/home/p/.emacs.d/" . "emacs_init/")
- ("/home/p/" . ".config/")
+ ("/home/p/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/p/.config/i3/"
  "/home/p/.config/picom/"
+ "/home/p/.config/i3/"
  "/home/p/.emacs.d/emacs_init/"
- "/home/p/.config/conky/"
  "/home/p/"
+ "/home/p/.emacs.d/"
  "/home/p/.config/termite/"
+ "/home/p/.config/conky/"
  "/home/p/Documents/UAH/2020Spring/CS221/ProjectAssignment3/"
  "/home/p/Documents/UAH/2020Spring/CS221/ProjectAssignment1/"
  "/home/"
@@ -30,35 +31,37 @@
 
 ;; ----- ido-work-file-list -----
 (
- "config"
- "picom_toggle.sh"
- "python_mode.el"
- ".conkyrc"
- "emacs_settings.el"
- "output.txt"
+ "picom.conf"
  "test.py"
+ "package_dependency.el"
+ "test.hs"
+ "emacs_init.el"
  "cpp_mode.el"
- "#test.py#"
- "CustomerList.cpp"
+ "init.el"
+ "emacs_settings.el"
+ "config"
+ "python_mode.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/p/.config/picom/" (24199 31481 673052 581000) "./" "picom_toggle.sh" "../" "picom.conf" "picom_toggle.sh~" "picom.conf~")
+ ("/home/p/.config/" (24239 6693 204569 833000) "./" "pulse/" "okularrc" "i3/" "htop/" "gtk-3.0/" "spicetify/" "Tresorit/" "user-dirs.dirs" "torbrowser/" "picom/" "dconf/" "libreoffice/" "user-dirs.locale" "qt5ct/" "QtProject.conf" "backintime/" "menus/" "protonmail/" "vlc/" "procps/" "chromium/" "spotify/" ".i3lock/" "libvirt/" "../" "keepassxc/" "pavucontrol.ini" "glib-2.0/" "autostart/" "termite/")
 
- ("/home/p/" (24199 31148 719709 328000) ".viminfo" ".oldconkyrc" ".yarn/" ".Xclients" ".gnupg/" ".android/" ".cache/" ".virtualenvs/" ".ipython/" ".gtkrc-2.0" ".esd_auth" ".recently-used" "test_james/" ".conda/" ".bash_profile" ".icons/" ".zoom/" ".conky/" ".wget-hsts" "python-virtual-environments/" ".bash_history" ".ssr/" ".vboxclient-draganddrop.pid" ".gnome/" ".zshrc.pre-oh-my-zsh" "./" ".i3/" ".fehbg" ".bashrc" ".hugin" ".altera.quartus/" ".face" "Pictures/" ".wallpapers/" ".xinitrc" ".emacs.d/" ".vnc/" ".profile" ".kde4/" ".zshrc.zni" "Desktop/" ".condarc" ".jupyter/" ".local/" ".shell.pre-oh-my-zsh" ".face.icon" ".zshrc" ".thunderbird/" "Downloads/" "masterp.kdbx" ".dir_colors" ".hugindata/" ".yarnrc" ".mozilla/" ".zcompdump-p-pc-5.8" ".dropbox-dist/" "Documents/" ".fltk/" "Dropbox/" "testing/" ".fonts/" ".gitconfig" ".ptbt0" ".ssh/" "../" ".zipline/" ".pki/" ".zsh_history" ".bash_logout" ".mono/" ".java/" ".dropbox/" ".Xauthority" ".cargo/" ".eim.d/" ".config/" ".oh-my-zsh/" ".python_history" ".defaults-0.1.0.ini" ".conkyrc~")
+ ("/home/p/" (24239 8056 401286 94000) ".bash_profile" ".themes/" ".zshrc.pre-oh-my-zsh" ".bash_history" "./" ".i3/" ".mozilla/" ".gitconfig" ".ghc/" ".Xauthority" ".gnome/" ".vim/" ".histfile" ".wallpapers/" ".gtkrc-2.0" "VMs/" ".gnupg/" ".xinitrc" ".config/" "Pictures/" ".emacs.d/" ".bash_logout" ".local/" ".viminfo" ".password-store/" ".fltk/" "Documents/" ".ssh/" ".oh-my-zsh/" "Cloud/" ".thunderbird/" "Downloads/" ".zcompdump-arch-pc-5.8" ".zcompdump" ".pki/" ".zsh_history" ".cache/" ".virtualenvs/" ".lesshst" "../" ".python_history" ".icons/" ".eim.d/" ".bashrc" ".wget-hsts" ".zshrc" ".vnc/")
 
- ("/home/p/.emacs.d/emacs_init/" (24199 30242 43015 663000) "emacs_settings.el~" "#package_dependency.el#" "multiple_cursors.el" "cpp_mode.el~" "web_mode.el" "test.py" ".workgroups" "old_cpp_mode.el" "workgroups_support.el" "python_mode.el~" "key_maps.el" "haskell_mode.el~" "./" "sql_mode.el" "cpp_mode.el" ".workgroups~" "keychord.el" "package_dependency.el~" "emacs_settings.el" "ibuffer_mode.el" "emacs_init.el" "emacs_init.el~" "tex_mode.el" "python_mode.el" "ibuffer.el" "../" "ido_mode.el" "haskell_mode.el" "package_dependency.el")
+ ("/home/p/.config/i3/" (24239 4128 64476 643000) "./" "i3/" "config" "#config#" "config~" "../")
 
- ("/home/p/.emacs.d/" (24199 30242 153015 666000) "irony/" "auto-save-list/" "./" "init.el" ".gitignore" "init.el~" "ido.last" "elpa/" "url/" "transient/" "ido.last~" ".git/" "../" "snippets/" "emacs_init/" "#ido.last#")
+ ("/home/p/.emacs.d/emacs_init/" (24239 3552 927789 98000) "ido_mode.el" "./" "haskell_mode.el" "ibuffer.el" "multiple_cursors.el" "cpp_mode.el" ".workgroups" ".workgroups~" "workgroups_support.el" "package_dependency.el" "sql_mode.el" "python_mode.el" "keychord.el" "tex_mode.el" "key_maps.el" "emacs_settings.el" "old_cpp_mode.el" "web_mode.el" "../" "emacs_init.el" "ibuffer_mode.el" "test.py")
 
- ("/home/p/.config/i3/" (24198 34141 932687 614000) "config" "./" "../" "config~")
+ ("/home/" (24235 26956 439937 253000) "./" "ssh/" "lost+found/" "../" "p/")
 
- ("/home/p/.config/" (24198 32853 200785 449000) "dolphinrc" "katevirc" "emaildefaults" "kwalletrc" "plasma-localerc" "kgetrc" "systemsettingsrc" "startupconfig" "khotkeysrc" "konsole.notifyrc" "matplotlibrc" "spyder-py3/" "kconf_updaterc" "zoomus.conf" "mimeapps.list" "baloofileinformationrc" "qBittorrent/" "GIMP/" "user-dirs.locale" "keepassxc/" "compton/" "akonadi_indexing_agentrc" "qtwsrc" "manjaro/" "menus/" "color/" "kmail2rc" "akonadi-migrationrc" "korganizerrc" "spotify/" "ktimezonedrc" "chromium/" "baloofilerc" "kactivitymanagerdrc" "plasmanotifyrc" "htop/" "calibre/" "autostart-scripts/" "./" "kcmshell5rc" "opera/" "spotifyd/" "enchant/" "thumbnail.sorc" "kdeconnect/" "user-dirs.dirs" "darktable/" "kwinrc" "gtkrc" "ranger/" "systemmonitorrc" "kscreenlockerrc" "akonadi-firstrunrc" "arkrc" "picom/" "specialmailcollectionsrc" "konsolerc" "akonadi_contacts_resource_0rc" "powermanagementprofilesrc" "bluedevilglobalrc" "Popcorn-Time/" "filetypesrc" "autostart/" "filezilla/" "akonadi/" "calibrerc" "Thunar/" "akonadi_maildir_resource_0rc" "webengineurlinterceptoradblockrc" "qBittorrentrc" "kded5rc" "falkon/" "xfce4/" "akonadi_akonotes_resource_0rc" "QtProject.conf" "gconf/" "soffice.binrc" "gtk-3.0/" "kxkbrc" "kactivitymanagerd-statsrc" "rtags/" "eventviewsrc" "Code/" "VirtualBoxrc" "spotify-tui/" "xsettingsd/" "startupconfigkeys" "lo_kde5filepickerrc" "balena-etcher-electron/" "okularrc" "plasma-nm" "knfsshare" "kde.org/" "kwinrulesrc" "plasma-org.kde.plasma.desktop-appletsrc" "akregatorrc" "katemetainfos" "octopi/" "klipperrc" "partitionmanagerrc" "configstore/" "korgacrc" "qtws_Netflix/" "networkmanagement.notifyrc" "kitty/" "KeePassXCrc" "Tresorit/" "dconf/" "nordvpn/" "gwenviewrc" "VeraCrypt/" "ksysguardrc" "i3/" "gtkrc-2.0" "yay/" "session/" "spectaclerc" "procps/" ".i3lock/" "okularpartrc" "Unknown Organization/" "kmixrc" "systemd/" "color.jcnf" "VirtualBox/" "libreoffice/" "incidenceeditorrc" "termite/" "conky/" "KeePass/" "kdeglobals" "kateschemarc" "../" "plasmashellrc" "VirtualBoxVMrc" "gedit/" "vlc/" "Atom/" "emailidentities" "ksmserverrc" "dask/" "DisplayCAL/" ".mono/" "katerc" "Trolltech.conf" "spyder/" "trashrc" "manjaro-hello.json" "libaccounts-glib/" "kioslaverc" "rofi/" "kglobalshortcutsrc" "pulse/" "matplotlib/" "startupconfigfiles" "krunnerrc")
+ ("/home/p/.emacs.d/" (24239 3553 17789 101000) "./" "elpa/" "auto-save-list/" "snippets/" "ido.last" "init.el" ".gitignore" "ido.last~" "irony/" "#ido.last#" "emacs_init/" ".git/" "../" "themes/" "transient/")
+
+ ("/home/p/.config/termite/" (24238 64468 990954 925000) "./" "config" "config.user" "config~" "../")
+
+ ("/home/p/.config/picom/" (24238 64001 114271 322000) "./" "picom.conf~" "picom_toggle.sh~" "picom_toggle.sh" "picom.conf" "../")
 
  ("/home/p/.config/conky/" (24192 59424 824977 23000) "./" "../" ".conkyrc")
-
- ("/home/p/.config/termite/" (24192 57523 498253 924000) "config" "./" "../" "config~")
 
  ("/home/p/.emacs.d/elpa/" (24187 61435 125194 937000) "helm-rtags-readme.txt" "anaphora-20180618.2200/" "levenshtein-20090830.1040/" "emmet-mode-20180613.341/" "ess-R-data-view-20130509.1158/" "company-irony-20190124.2346/" "sr-speedbar-readme.txt" "swap-regions-readme.txt" "pkg-info-20150517.1143/" "haskell-mode-20200221.1959/" "company-c-headers-20190825.1631/" "helm-rtags-20191222.920/" "ctable-20171006.11/" "request-20200219.2257/" "ess-20200224.2206/" "irony-readme.txt" "highlight-indentation-20181204.839/" "key-chord-readme.txt" "company-rtags-readme.txt" "flx-ido-20180117.1519/" "pyvenv-20191202.1039/" "yasnippet-snippets-20200122.1140/" "transient-20200219.2113/" "company-20200206.2239/" "company-web-20180402.1155/" "flx-20191115.659/" "popup-20160709.1429/" "web-mode-20200225.2201/" "./" "f-20191110.1357/" "key-chord-20160227.1238/" "tablist-20191129.1850/" "clean-aindent-mode-20171017.2043/" "multiple-cursors-20191210.1759/" "cmake-ide-20190731.1009/" "helm-20200220.1651/" "magit-20200224.2301/" "gnupg/" "helm-gtags-20170116.529/" "company-irony-c-headers-readme.txt" "markdown-preview-mode-readme.txt" "ws-butler-20170111.2334/" "markdown-preview-mode-20181213.1339/" "ido-vertical-mode-20180618.2101/" "use-package-20191126.2034/" "expand-region-20200224.1501/" "elpy-20200323.1647/" "blacken-20191123.1547/" "memoize-20200103.2036/" "deferred-20170901.1330/" "with-editor-20200217.1015/" "bind-key-20191110.416/" "flycheck-20200224.2057/" "dtrt-indent-20191019.2141/" "git-commit-20200207.1819/" "flycheck-ghcmod-20150114.632/" "dash-20200119.2310/" "web-mode-readme.txt" "company-irony-c-headers-20151018.909/" "ein-20200224.1346/" "helm-core-20200207.1836/" "pdf-tools-20191228.1005/" "polymode-20191208.1239/" "rainbow-delimiters-20191018.1233/" "flycheck-irony-20180604.2152/" "ido-completing-read+-20200215.1841/" "web-completion-data-20160318.848/" "rtags-20200221.36/" "workgroups2-20141102.1922/" "sr-speedbar-20161025.831/" "auctex-12.2.0/" "async-20200113.1745/" "julia-mode-20191225.858/" "../" "markdown-mode-20191230.1055/" "yasnippet-20191222.2206/" "markdown-preview-eww-20160111.1502/" "s-20180406.808/" "pdf-tools-readme.txt" "websocket-20200102.637/" "web-server-20200216.1126/" "irony-20200130.849/" "company-rtags-20191222.920/" "archives/" "flycheck-rtags-20191222.920/" "dracula-theme-20200122.1904/" "ace-jump-mode-20140616.815/" "git-gutter+-20151204.1723/" "epl-20180205.2049/" "auctex-12.2.0.signed")
 
@@ -77,8 +80,6 @@
  ("/home/p/Documents/UAH/2020Spring/CS221/" (24176 6228 360052 788000) "ProjectAssignment1/" "ProjectAssignment2/" "./" "ProjectAssignment3/" ".git/" "../" "trash/")
 
  ("/home/p/Documents/" (24176 12664 550244 147000) "Apps/" "Router/" "Personal/" "./" "Calibre Library/" "Coding/" "global_entry.png" "Books/" "BashScripts/" "MonitorCal/" "UAH/" "../")
-
- ("/home/" (23825 29502 262076 749000) "p/" "./" "../")
 
  ("/home/p/Documents/UAH/2020Spring/CS221/ProjectAssignment3/tex_docs/" (24176 11459 100208 258000) "SoftwareTestPlan.tex" "DesignDocument.pdf" "DesignDocument.out" "./" "DesignDocument.tex~" "DesignDocument.tex" "DesignDocument.toc" "auto/" "DesignDocument.log" "DesignDocument.aux" "../")
 
