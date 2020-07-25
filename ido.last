@@ -18,14 +18,14 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/p/.emacs.d/"
+ "/home/p/.emacs.d/emacs_init/"
  "/home/p/Downloads/public_html/"
  "/home/p/.i3/"
  "/home/p/Documents/Personal/Coding/Python/Basketball/"
- "/home/p/.emacs.d/emacs_init/"
  "/home/p/.config/picom/"
  "/home/p/.config/i3/"
  "/home/p/"
- "/home/p/.emacs.d/"
  "/home/p/.config/termite/"
  "/home/p/.config/conky/"
  "/home/p/Documents/UAH/2020Spring/CS221/ProjectAssignment3/"
@@ -39,6 +39,9 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
+ "package_dependency.el"
+ "haskell_mode.el"
  "experience.html"
  "paul_abers_css.css"
  "contact.html"
@@ -46,14 +49,15 @@
  "skills.html"
  "index.html"
  "portfolio.html"
- "hobbies_travel.html"
- "hobbies_sports.html"
- "hobbies_reading.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/p/" (24343 34839 5884 772000) ".ssh/" "Music/" "b2" ".xscreensaver" ".oh-my-zsh/" "Backups/" ".zsh_history" "Documents/" ".virtualenvs/" ".vim/" ".zshrc" ".thunderbird/" ".themes/" ".icons/" ".npm/" ".gnome/" ".shell.pre-oh-my-zsh" ".bash_history" "wifiRestart.txt" ".zcompdump-arch-tower-5.8" "Downloads/" ".config/" ".Xauthority" ".zshrc.pre-oh-my-zsh" ".i3/" ".mozilla/" ".viminfo" ".xinitrc" ".gtkrc-2.0" "VMs/" "../" ".aws/" ".emacs.d/" ".gnupg/" "Cloud/" "Pictures/" "Desktop/" ".b2_account_info" ".fehbg" ".wallpapers/" ".pki/" ".cache/" "./" "test.sh" ".local/")
+ ("/home/p/.emacs.d/emacs_init/" (24348 49028 301668 381000) "emacs_settings.el" "workgroups_support.el" "ibuffer.el" "haskell_mode.el" "ido_mode.el" "python_mode.el" "multiple_cursors.el" ".workgroups" "sql_mode.el" "ibuffer_mode.el" "test.py" "../" "key_maps.el" "emacs_init.el" "cpp_mode.el" "old_cpp_mode.el" "web_mode.el" "package_dependency.el" "./" "keychord.el" "tex_mode.el")
+
+ ("/home/p/.emacs.d/" (24348 48844 972693 434000) ".git/" "themes/" "auto-save-list/" "ido.last~" "transient/" "emacs_init/" "../" ".gitignore" "irony/" "ido.last" "elpa/" "init.el" "snippets/" "./")
+
+ ("/home/p/" (24348 48983 534436 71000) ".ssh/" "Music/" ".xscreensaver" ".oh-my-zsh/" ".zsh_history" "Documents/" ".virtualenvs/" ".vim/" ".zshrc" ".thunderbird/" ".themes/" ".icons/" ".npm/" ".gnome/" ".gitconfig" ".shell.pre-oh-my-zsh" ".bash_history" ".zcompdump-arch-tower-5.8" "Downloads/" ".config/" ".Xauthority" ".zshrc.pre-oh-my-zsh" ".i3/" ".mozilla/" ".viminfo" ".xinitrc" ".gtkrc-2.0" "VMs/" "../" ".aws/" ".emacs.d/" ".gnupg/" "Cloud/" "Pictures/" "Desktop/" ".b2_account_info" ".fehbg" ".wallpapers/" ".pki/" ".cache/" "./" ".local/")
 
  ("/home/p/.i3/" (24340 62406 777519 8000) "i3blocks.conf" "../" ".i3status.conf~" "./" ".i3status.conf")
 
@@ -70,10 +74,6 @@
  ("/home/" (24301 29151 517973 330000) "p/" "lost+found/" "../" "./")
 
  ("/home/p/Documents/Personal/Coding/Python/Basketball/" (24294 13816 626872 388000) "scrape_team_stats.py" "./" "scrape_game_stats.py" ".gitignore" ".#scrape_team_stats.py" ".git/" "../" "Data/")
-
- ("/home/p/.emacs.d/emacs_init/" (24264 31679 279010 571000) "ido_mode.el" "./" "haskell_mode.el" "ibuffer.el" "multiple_cursors.el" "cpp_mode.el" ".workgroups" ".workgroups~" "workgroups_support.el" "package_dependency.el" "sql_mode.el" "python_mode.el" "keychord.el" "tex_mode.el" "key_maps.el" "emacs_settings.el" "old_cpp_mode.el" "web_mode.el" "../" "emacs_init.el" "ibuffer_mode.el" "test.py")
-
- ("/home/p/.emacs.d/" (24264 31679 312343 902000) "./" "elpa/" "auto-save-list/" "snippets/" "ido.last" "init.el" ".gitignore" "ido.last~" "irony/" "#ido.last#" "emacs_init/" ".git/" "../" "themes/" "transient/")
 
  ("/home/p/Documents/Personal/Coding/Python/" (24270 62846 785013 691000) "./" "Basketball/" "Marsland/" "../")
 
