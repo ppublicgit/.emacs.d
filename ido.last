@@ -2,22 +2,24 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/p/.config/i3/" . "i3/")
  ("/home/p/Downloads/" . "public_html/")
  ("/home/p/Documents/Personal/Coding/Python/" . "Basketball/")
  ("/home/p/Documents/Personal/Coding/" . "Python/")
  ("/home/p/Documents/Personal/" . "Coding/")
- ("/home/p/.config/" . "picom/")
+ ("/home/p/.config/" . "i3/")
  ("/home/p/Documents/UAH/2020Spring/CS221/" . "ProjectAssignment3/")
  ("/home/p/Documents/UAH/2020Spring/" . "CS221/")
  ("/home/p/Documents/UAH/" . "2020Spring/")
  ("/home/p/Documents/" . "Personal/")
  ("/home/p/.emacs.d/" . "emacs_init/")
- ("/home/p/" . "Downloads/")
+ ("/home/p/" . ".config/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/home/p/Downloads/public_html/"
+ #("/home/p/.i3/" 6 7 (face flx-highlight-face) 8 11 (face flx-highlight-face))
  "/home/p/Documents/Personal/Coding/Python/Basketball/"
  "/home/p/.emacs.d/emacs_init/"
  "/home/p/.config/picom/"
@@ -38,30 +40,34 @@
 ;; ----- ido-work-file-list -----
 (
  "experience.html"
+ "paul_abers_css.css"
  "contact.html"
+ ".i3status.conf"
  "skills.html"
  "index.html"
  "portfolio.html"
  "hobbies_travel.html"
  "hobbies_sports.html"
  "hobbies_reading.html"
- "hobbies_photography.html"
- "hobbies.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/p/Downloads/public_html/" (24338 2100 660024 79000) "paul_abers_css.css" "experience.html" "hobbies_reading.html~" "images/" "hobbies_travel.html" "skills.html~" "hobbies_sports.html" "hobbies_reading.html" "hobbies.html" "index.html~" "contact.html" "skills.html" "hobbies_travel.html~" "hobbies_sports.html~" "experience.html~" "hobbies_photography.html~" "portfolio.html~" "../" "contact.php" "portfolio.html" "hobbies.html~" ".well-known/" "index.html" "./" "hobbies_photography.html" "contact.html~" ".htaccess")
+ ("/home/p/" (24343 34839 5884 772000) ".ssh/" "Music/" "b2" ".xscreensaver" ".oh-my-zsh/" "Backups/" ".zsh_history" "Documents/" ".virtualenvs/" ".vim/" ".zshrc" ".thunderbird/" ".themes/" ".icons/" ".npm/" ".gnome/" ".shell.pre-oh-my-zsh" ".bash_history" "wifiRestart.txt" ".zcompdump-arch-tower-5.8" "Downloads/" ".config/" ".Xauthority" ".zshrc.pre-oh-my-zsh" ".i3/" ".mozilla/" ".viminfo" ".xinitrc" ".gtkrc-2.0" "VMs/" "../" ".aws/" ".emacs.d/" ".gnupg/" "Cloud/" "Pictures/" "Desktop/" ".b2_account_info" ".fehbg" ".wallpapers/" ".pki/" ".cache/" "./" "test.sh" ".local/")
 
- ("/home/p/Downloads/" (24338 1917 613357 191000) "old/" "public_html.zip" "public_html/" "../" "./")
+ ("/home/p/.i3/" (24340 62406 777519 8000) "i3blocks.conf" "../" ".i3status.conf~" "./" ".i3status.conf")
+
+ ("/home/p/Downloads/public_html/" (24340 38509 258630 519000) "paul_abers_css.css" "experience.html" "images/" "hobbies_travel.html" "hobbies_sports.html" "hobbies_reading.html" "hobbies.html" "contact.html" "skills.html" "../" ".htaccessold" "old_contact_php.txt" "error.html" "portfolio.html" ".well-known/" "index.html" "./" "hobbies_photography.html" "contact.html~" ".htaccess")
+
+ ("/home/p/Downloads/" (24340 29199 348139 821000) "old/" "multilockscreen-git/" "test_benq_highquality_earlyevening_sun_still_out_July172020/" "public_html/" "nordvpn-bin/" "xiccd/" "../" "aws-cli/" "./")
+
+ ("/home/p/.config/i3/" (24340 36811 148175 688000) "config" "i3/" "../" "config~" "./")
+
+ ("/home/p/.config/i3/i3/" (24302 11035 147993 548000) "../" ".#config" "./")
+
+ ("/home/p/.config/" (24339 46075 361171 336000) "Electron/" "qt5ct/" "balena-etcher/" "yay/" "nordvpn/" "picom/" "keepassxc/" "htop/" "color/" "xfce4/" "termite/" "menus/" "ranger/" "spotify/" "Tresorit/" ".config/" "QtProject.conf" "Thunar/" "spicetify/" "dconf/" "autostart/" "i3/" "DisplayCAL/" "pulse/" "../" "vlc/" "protonmail/" "libreoffice/" "gtk-2.0/" "procps/" "./" "color.jcnf" "gtk-3.0/" "configstore/")
 
  ("/home/" (24301 29151 517973 330000) "p/" "lost+found/" "../" "./")
-
- ("/home/p/" (24338 1986 186690 604000) ".ssh/" "Music/" ".xscreensaver" ".oh-my-zsh/" ".zsh_history" "Documents/" ".virtualenvs/" ".vim/" ".zshrc" ".thunderbird/" ".themes/" ".icons/" ".npm/" ".gnome/" ".shell.pre-oh-my-zsh" ".bash_history" ".zcompdump-arch-tower-5.8" "Downloads/" ".config/" ".Xauthority" ".zshrc.pre-oh-my-zsh" ".i3/" ".mozilla/" ".viminfo" ".xinitrc" ".gtkrc-2.0" "../" ".emacs.d/" ".gnupg/" "Cloud/" "Pictures/" "Desktop/" ".wallpapers/" ".pki/" ".cache/" "./" ".local/")
-
- ("/home/p/.config/" (24333 63962 167888 266000) "Electron/" "qt5ct/" "balena-etcher/" "yay/" "picom/" "keepassxc/" "htop/" "termite/" "menus/" "ranger/" "spotify/" "Tresorit/" ".config/" "QtProject.conf" "spicetify/" "dconf/" "autostart/" "i3/" "pulse/" "../" "vlc/" "protonmail/" "libreoffice/" "gtk-2.0/" "procps/" "./" "gtk-3.0/" "configstore/")
-
- ("/home/p/.config/i3/" (24302 54006 367915 363000) "config" "i3/" "../" "config~" "./")
 
  ("/home/p/Documents/Personal/Coding/Python/Basketball/" (24294 13816 626872 388000) "scrape_team_stats.py" "./" "scrape_game_stats.py" ".gitignore" ".#scrape_team_stats.py" ".git/" "../" "Data/")
 
