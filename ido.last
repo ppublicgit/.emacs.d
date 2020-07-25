@@ -19,7 +19,7 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/p/Downloads/public_html/"
- #("/home/p/.i3/" 6 7 (face flx-highlight-face) 8 11 (face flx-highlight-face))
+ "/home/p/.i3/"
  "/home/p/Documents/Personal/Coding/Python/Basketball/"
  "/home/p/.emacs.d/emacs_init/"
  "/home/p/.config/picom/"
