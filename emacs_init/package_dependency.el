@@ -1,7 +1,6 @@
 (require 'package)
 ;; Require Melpa
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
 ;; If there are no archived package contents, refresh them
@@ -40,6 +39,7 @@
     flycheck ;;fc
     blacken ;;bl pip install black in correct virtual environment
     ein ;;ei
+    pyvenv ;;pyvenv for elpy
 
     ;; LATEX SETUP
     auctex ;; au
